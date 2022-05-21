@@ -995,7 +995,11 @@ iframe {
   }
 
   .swiper-button-prev {
-    left: -3.5rem;
+    left: 1rem;
+  }
+
+  .swiper-button-next {
+    right: 1rem;
   }
 
   .contact__inputs {
