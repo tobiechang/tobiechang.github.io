@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -25,7 +25,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -45,7 +45,7 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contactme" class="nav__link">
+                            <a href="#contact" class="nav__link">
                                 <i class="uil uil-message nav__icon"></i> Contact Me
                             </a>
                         </li>
@@ -54,6 +54,9 @@
                 </div>
 
                 <div class="nav__btns">
+                    <!---- Theme change button ---->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -93,7 +96,7 @@
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
 
-                                    <image class="home__blob-img" x="-10" y="-16" xlink:href="assets/img/perfil.png"/>
+                                    <image class="home__blob-img" x="-10" y="-12" xlink:href="assets/img/perfil.png"/>
                                 </g>
                             </svg>
                         </div>
@@ -101,7 +104,7 @@
                             <h1 class="home__title">Hi, I'm Tobie</h1>
                             <h3 class="home__subtitle">Web Designer & Developer</h3>
                             <p class="home__description">An aspiring UX Designer with a strong technical background trying to grow a little more each day. &#127793</p>
-                            <a href="#contactme" class="button button--flex">
+                            <a href="mailto: tobieannachang@gmail.com" class="button button--flex">
                                 Let's Talk  <i class="uil uil-message button__icon"></i>
                             </a>
                         </div>
@@ -128,11 +131,12 @@
                             I love technology and I love people. As such, I am in hot pursuit of improving and gaining insights on
                             interactions between the two. I'm just starting out on the path to 
                             becoming a full-fledged designer and developer, but I can't wait to create more visually beautiful and 
-                            intutive webpages and applications for people to navigate.
-                        </p>
-                        <iframe src='https://my.spline.design/untitled-f515beb77aef28932572ec0a9d393c46/' frameborder='0' width='100%' height='100%'></iframe>                            <br>In my spare time, you'll often find me creating digital art, experimenting in the kitchen, playing video games, 
+                            intutive webpages and applications for people to navigate.<br><br>
+                            In my spare time, you'll often find me creating digital art, experimenting in the kitchen, playing video games, 
                             trying to keep my plants alive, and travelling as much as possible.
                         </p>
+                        <iframe src='https://my.spline.design/untitled-f515beb77aef28932572ec0a9d393c46/' frameborder='0' width='100%' height='100%'></iframe>
+                        
                         <div class="about__info">
                             <div>
                                 <span class="about__info-title">08+</span>
@@ -165,7 +169,7 @@
                 <div class="skills__container container grid">
                     <div>
                         <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content">
+                        <div class="skills__content skills__open">
                             <div class="skills__header">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
 
@@ -179,7 +183,7 @@
 
                             <div class="skills__list grid">
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">HTML</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
@@ -189,7 +193,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">CSS</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
@@ -199,7 +203,7 @@
                                 </div>
                                 
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">JavaScript</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
@@ -209,7 +213,7 @@
                                 </div>
                                 
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">Java</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
@@ -219,17 +223,17 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">C++</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__c++"></span>
+                                        <span class="skills__percentage skills__cplus"></span>
                                     </div>
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">PHP</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
@@ -239,7 +243,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">Python</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
@@ -250,9 +254,9 @@
                             </div>
                         </div>
                         <!--==================== SKILLS 2 ====================-->
-                        <div class="skills__content">
+                        <div class="skills__content skills__close">
                             <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <i class="uil uil-lightbulb-alt skills__icon"></i>
 
                                 <div>
                                     <h1 class="skills_title">Design</h1>
@@ -264,72 +268,52 @@
 
                             <div class="skills__list grid">
                                 <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">HTML</h3>
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
+                                        <span class="skills__percentage skills__figma"></span>
                                     </div>
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">CSS</h3>
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Canva</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__css"></span>
+                                        <span class="skills__percentage skills__canva"></span>
                                     </div>
                                 </div>
                                 
                                 <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">JavaScript</h3>
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Spline</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__javascript"></span>
+                                        <span class="skills__percentage skills__spline"></span>
                                     </div>
                                 </div>
                                 
                                 <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Java</h3>
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Procreate</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__java"></span>
+                                        <span class="skills__percentage skills__procreate"></span>
                                     </div>
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">C++</h3>
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">User Research</h3>
                                         <!-- <span class="skills__number">90%</span> -->
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__c++"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">PHP</h3>
-                                        <!-- <span class="skills__number">90%</span> -->
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__php"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Python</h3>
-                                        <!-- <span class="skills__number">90%</span> -->
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
+                                        <span class="skills__percentage skills__userresearch"></span>
                                     </div>
                                 </div>
                             </div>
@@ -339,32 +323,155 @@
                 </div>
             </section>
 
-            <!--==================== QUALIFICATION ====================-->
+            <!--==================== QUALIFICATION 
             <section class="qualification section">
 
-            </section>
+            </section>====================-->
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">things I have made</span>
+
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.JPG" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">TeamWorkWork</h3>
+                                <p class="portfolio__description">Conceptualized, researched, and designed a hybrid-synchronous 
+                                    online classroom platform.</p>
+                                <a href="https://christophermlee2.github.io/termproject/" class="button button--flex button--small portfolio__button">
+                                    Research & Prototype
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Axolotl Atheneum</h3>
+                                <p class="portfolio__description">Developed and visually designed a fully functional
+                                    eCommerce bookstore.
+                                </p>
+                                <a href="https://github.com/KGautam0/AxoltlAtheneumMVC" class="button button--flex button--small portfolio__button">
+                                    Get the code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.JPG" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Recipe Ninja</h3>
+                                <p class="portfolio__description">Branded, designed, and developed a recipe database website 
+                                    similar to Pinterest.
+                                </p>
+                                <a href="https://github.com/notalatte/cs4300-project" class="button button--flex button--small portfolio__button">
+                                    Get the code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">I'd love to hear from you</span>
 
+                <div class="contact_container container grid">
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Tobie Chang</h1>
+                        <span class="footer__subtitle">Web Designer & Developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.instagram.com/tobie.chang/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tobiechang" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/tobiechang" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
