@@ -669,7 +669,7 @@ iframe {
 /*==================== CONTACT ME ====================*/
 
 .mighty-form {
-  margin-top: -2rem;
+  margin-top: -1rem;
 }
 
 .contact__container {
@@ -801,6 +801,7 @@ iframe {
   }
 
   .home__blob {
+    justify-content: center;
     width: 190px;
   }
 
