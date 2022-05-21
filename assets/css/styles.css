@@ -276,6 +276,8 @@ iframe {
 /*==================== HOME ====================*/
 .home__container {
   gap: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .home__content {
@@ -380,6 +382,7 @@ iframe {
 }
 
 /*==================== ABOUT ====================*/
+
 .about__img {
   width: 200px;
   border-radius: .5rem;
@@ -777,8 +780,8 @@ iframe {
     justify-self: center;
   }
 
-  .about__container,
-  .skills__container,
+  .about__data,
+  .skills__data,
   .portfolio__content,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -907,6 +910,11 @@ iframe {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+
   .header,
   .main,
   .footer__container {
@@ -931,10 +939,6 @@ iframe {
 
   .swiper-button-prev {
     left: -3.5rem;
-  }
-
-  .swiper-button-next {
-    right: -3.5rem;
   }
 
   .contact__inputs {
