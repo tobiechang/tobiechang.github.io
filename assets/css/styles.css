@@ -181,6 +181,8 @@ iframe {
 }
 
 /*==================== NAV ====================*/
+
+
 .nav {
   max-width: 968px;
   height: var(--header-height);
@@ -189,14 +191,14 @@ iframe {
   align-items: center;
 }
 
-.nav__logo,
+.nav__logo {
+  filter: opacity(75%);
+  width: 3%;
+}
+
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
-}
-
-.nav__logo:hover {
-  color: var(--first-color-alt);
 }
 
 .nav__toggle {
