@@ -193,7 +193,7 @@ iframe {
 
 .nav__logo {
   filter: opacity(75%);
-  width: 3%;
+  width: 1.75rem;
 }
 
 .nav__toggle {
