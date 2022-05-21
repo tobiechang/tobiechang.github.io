@@ -277,7 +277,7 @@ iframe {
 .home__container {
   gap: 1rem;
   padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
 }
 
 .home__content {
@@ -407,14 +407,30 @@ iframe {
   color: var(--title-color);
 }
 
+.about__info-title-resume {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
 .about__info-name {
   font-size: var(--smaller-font-size);
 }
 
+.about__info-title-resume,
 .about__info-title,
 .about__info-name {
   display: block;
   text-align: center;
+}
+
+.about__info-title-resume:hover {
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.about__icon {
+  font-size: 2.5rem;
 }
 
 .about__buttons {
@@ -551,6 +567,10 @@ iframe {
   transform: rotate(-180deg);
 }
 
+.skills {
+  margin-bottom: 2.5rem;
+}
+
 /*==================== QUALIFICATION ====================*/
 
 
@@ -589,6 +609,14 @@ iframe {
   transform: translate(.25rem);
 }
 
+.swiper-slide {
+  filter: blur(4px);
+}
+
+.swiper-slide-active {
+  filter: blur(0);
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: '';
@@ -625,6 +653,10 @@ iframe {
   outline: none;
 }
 
+.portfolio {
+  margin-bottom: 2.5rem;
+}
+
 /*==================== PROJECT IN MIND ====================*/
 
 
@@ -634,6 +666,10 @@ iframe {
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
+}
+
+.contact {
+  margin-bottom: 4rem;
 }
 
 .contact__content {
@@ -786,6 +822,10 @@ iframe {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .about__info {
+    margin-top: -2rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -872,6 +912,10 @@ iframe {
 
   .about__description {
     text-align: initial;
+  }
+
+  .about__info {
+    margin-top: -9rem;
   }
 
   .about__info {
