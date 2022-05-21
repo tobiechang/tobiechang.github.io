@@ -614,13 +614,13 @@ iframe {
   transform: translate(.25rem);
 }
 
-.swiper-slide {
+/* .swiper-slide {
   filter: blur(4px);
 }
 
 .swiper-slide-active {
   filter: blur(0);
-}
+} */
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
