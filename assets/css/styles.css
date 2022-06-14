@@ -597,7 +597,7 @@ iframe {
 }
 
 .portfolio__content {
-  margin-top: 3rem;
+  margin-top: 7rem;
   padding: 0 1.5rem;
 }
 
@@ -676,7 +676,7 @@ iframe {
 
 /*==================== CONTACT ME ====================*/
 
-.mighty-form {
+/* .mighty-form {
   margin-top: -1rem;
 }
 
@@ -686,7 +686,7 @@ iframe {
 
 .contact {
   margin-bottom: 4rem;
-}
+} */
 
 /* .contact__content {
   background-color: var(--input-color);
