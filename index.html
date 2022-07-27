@@ -113,7 +113,7 @@
                     </div>
 
                     <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
+                        <a href="#portfolio" class="home__scroll-button button--flex">
                             <i class="uil uil-angle-double-down home__scroll-arrow"></i>
                             <span class="home__scroll-name">Learn More</span>
                         </a>
@@ -121,55 +121,71 @@
                 </div>
             </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">a little introduction</span>
+             <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">things I have made</span>
 
-                <div class="about__container container grid">
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.JPG" alt="" class="portfolio__img">
 
-                    <div class="about__data grid">
-                        <p class="about__description">
-                            I love technology and I love people. As such, I am in hot pursuit of learning how best to
-                            harness software to <strong>positively impact the world.</strong> I'm just starting out on the path to 
-                            becoming a full-fledged developer, but I can't wait to apply what I have learned over the years to 
-                            projects with purpose.<br><br>In my spare time, you'll often find me creating digital art, experimenting in the kitchen, playing video games, 
-                            trying to keep my plants alive, and travelling as much as possible.
-                        </p>
-
-                        <iframe src='https://my.spline.design/untitled-f515beb77aef28932572ec0a9d393c46/' frameborder='0' width="100%" height='100%'></iframe>
-
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">
-                                    <i class="uil uil-graduation-cap about__icon"></i>
-                                </span>
-                                <span class="about__info-name">B.S. in<br>Comp Sci</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">
-                                    <i class="uil uil-map-marker about__icon"></i>
-                                </span>
-                                <span class="about__info-name">Based in<br>Atlanta, GA</span>
-                            </div>
-                            <div>
-                                <a href="assets/pdf/Tobie Chang Resume.pdf" target="_blank" class="about__info-title-resume">
-                                    <i class="uil uil-file about__icon"></i>
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">TeamWorkWork</h3>
+                                <p class="portfolio__description">Conceptualized, researched, and designed a hybrid-synchronous 
+                                    online classroom platform.</p>
+                                <a href="https://christophermlee2.github.io/termproject/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Research & Prototype
+                                    <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <span class="about__info-name">View<br>resume</span>
                             </div>
-                            
                         </div>
 
-                        <!-- <div class="about__buttons">
-                            <a href="assets/pdf/Tobie Chang Resume.pdf" target="_blank" class="button button--flex">
-                                Resume<i class="uil uil-file-download button__icon"></i>
-                            </a>
-                        </div> -->
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Axolotl Atheneum</h3>
+                                <p class="portfolio__description">Developed and visually designed a fully functional
+                                    eCommerce bookstore.
+                                </p>
+                                <a href="https://github.com/KGautam0/AxoltlAtheneumMVC" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Get the code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.JPG" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Recipe Ninja</h3>
+                                <p class="portfolio__description">Branded, designed, and developed a recipe database website 
+                                    similar to Pinterest.
+                                </p>
+                                <a href="https://github.com/tobiechang/recipeninja" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Get the code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
-
+            
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
                 <h2 class="section__title">Skills</h2>
@@ -347,68 +363,53 @@
 
             </section>====================-->
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">things I have made</span>
 
-                <div class="portfolio__container container swiper">
-                    <div class="swiper-wrapper">
-                        <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.JPG" alt="" class="portfolio__img">
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">a little introduction</span>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">TeamWorkWork</h3>
-                                <p class="portfolio__description">Conceptualized, researched, and designed a hybrid-synchronous 
-                                    online classroom platform.</p>
-                                <a href="https://christophermlee2.github.io/termproject/" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Research & Prototype
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
+                <div class="about__container container grid">
+
+                    <div class="about__data grid">
+                        <p class="about__description">
+                            I love technology and I love people. As such, I am in hot pursuit of learning how best to
+                            harness software to <strong>positively impact the world.</strong> I'm just starting out on the path to 
+                            becoming a full-fledged developer, but I can't wait to apply what I have learned over the years to 
+                            projects with purpose.<br><br>In my spare time, you'll often find me creating digital art, experimenting in the kitchen, playing video games, 
+                            trying to keep my plants alive, and travelling as much as possible.
+                        </p>
+
+                        <iframe src='https://my.spline.design/untitled-f515beb77aef28932572ec0a9d393c46/' frameborder='0' width="100%" height='100%'></iframe>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">
+                                    <i class="uil uil-graduation-cap about__icon"></i>
+                                </span>
+                                <span class="about__info-name">B.S. in<br>Comp Sci</span>
                             </div>
+                            <div>
+                                <span class="about__info-title">
+                                    <i class="uil uil-map-marker about__icon"></i>
+                                </span>
+                                <span class="about__info-name">Based in<br>Atlanta, GA</span>
+                            </div>
+                            <div>
+                                <a href="assets/pdf/Tobie Chang Resume.pdf" target="_blank" class="about__info-title-resume">
+                                    <i class="uil uil-file about__icon"></i>
+                                </a>
+                                <span class="about__info-name">View<br>resume</span>
+                            </div>
+                            
                         </div>
 
-                        <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Axolotl Atheneum</h3>
-                                <p class="portfolio__description">Developed and visually designed a fully functional
-                                    eCommerce bookstore.
-                                </p>
-                                <a href="https://github.com/KGautam0/AxoltlAtheneumMVC" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Get the code
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PORTFOLIO 3 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio3.JPG" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Recipe Ninja</h3>
-                                <p class="portfolio__description">Branded, designed, and developed a recipe database website 
-                                    similar to Pinterest.
-                                </p>
-                                <a href="https://github.com/tobiechang/recipeninja" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Get the code
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
+                        <!-- <div class="about__buttons">
+                            <a href="assets/pdf/Tobie Chang Resume.pdf" target="_blank" class="button button--flex">
+                                Resume<i class="uil uil-file-download button__icon"></i>
+                            </a>
+                        </div> -->
                     </div>
-
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 

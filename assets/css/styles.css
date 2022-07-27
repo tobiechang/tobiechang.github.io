@@ -441,6 +441,9 @@ iframe {
   justify-content: center;
 }
 
+.about {
+  margin-bottom: 8rem;
+}
 
 /*==================== SKILLS ====================*/
 .skills__container {
@@ -664,9 +667,9 @@ iframe {
   outline: none;
 }
 
-.portfolio {
+/* .portfolio {
   margin-bottom: 8rem;
-}
+} */
 
 /*==================== PROJECT IN MIND ====================*/
 
